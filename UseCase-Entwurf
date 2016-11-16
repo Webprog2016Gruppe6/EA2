@@ -1,0 +1,22 @@
+Use-Case: Erstanwender anlegen
+1. Benutzer ruft Funktion zum Stundenplan erstellen auf.
+2.Seite bietet Möglichkeit zur Eingabe von persöhnlichen Daten und dem Zeitraster.
+3.Benutzer gibt persöhnliche Daten ein,  mind. Vor und Nachname.
+4.Benuter definiert Zeitraster
+	a. wählt herkömmlichen vorgefertigen Zeitplan(Schule) aus
+	b. trägt selbst die Zeitfenster in die Felder ein
+5.Benutzer bestätigt seine Angaben
+6.System leitet Eingabedaten weiter , gibt neue Seitenansicht frei (Fach Eingabe)
+
+Use-Case: Fach anlegen
+Vorbedingung: Benutzer hat bereits Zeitraster abgeschlossen
+1.Seite bietet Möglichkeit zum Definieren eines Fachs
+2.Benutzer trägt fachspezfische Daten ein
+	a. Zuordnung des Faches an Tag und Zeitfenster anhand Checkboxen
+3.Benutzer bestätigt seine Eingaben
+4.Seite erstellt Fach in Auswahleiste, wartet auf weitere Anweisungen
+	a. Bei Auswahl zur Eingabe des nächsten Faches beginnt ablauf ab Punkt 2.
+	b. Bei Auswahl zur Fertigstellung  wird dieser Schritt geschlossen
+5.System prüft Eingabedaten bei Bendigung
+	a.bei  keinen Eingabedaten wirft System Fehlerfenster
+	b. bei korrekter Eingabe wechsel zum visuellen Stundenplan 
