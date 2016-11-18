@@ -1,0 +1,43 @@
+body {
+        font-family: sans-serif;
+        color: #555555;
+
+}
+
+nav ul {
+    margin: 0;
+    padding: 0.8em;
+    text-align: center;
+    border: 1px solid black;
+    background-color: grey;
+}
+
+nav li {
+    display: inline-block;
+
+}
+
+nav a, nav span {
+        white-space: nowrap;
+        background-color: #DFDFDF;
+        display: block;
+        width: 10em;
+        padding: 0.6em;
+        border: 1px solid blue;
+        border-radius: 10px;
+        box-shadow: 0px 5px 10px white inset;
+        color: black;
+
+}
+main{
+        margin: 10px auto;
+        max-width: 70em;
+        font-family: sans-serif;
+        color: #333333;
+        background: #c4ced3;
+        border-color: #8a9da8;
+}
+
+footer {
+
+}
