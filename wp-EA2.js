@@ -14,8 +14,6 @@ function addListenersFirst(){
         // Add mouseover listener to the upper div with classname 'links'
         rbox.addEventListener("mouseover",flipMe);
 
-
-
         // Listener "Make Alerts"
         var alertbutton = document.getElementsByTagName("INPUT")[0];
         alertbutton.addEventListener("click", makeAlerts); 
@@ -41,14 +39,6 @@ function addListenersFirst(){
         insert_button.addEventListener("click", insertToList);
         var remove_button = document.getElementById("remove");
         remove_button.addEventListener("click", removeFromList);
-
-
-
-
-
-
-
-
 
 }
 
@@ -86,8 +76,6 @@ function flipMe(){
                 container.innerHTML = "";
                 }
 
-
-
 }
 
 /*
@@ -99,17 +87,6 @@ function makeAlerts(){
        for(var i=0; i < myp.length; i++){
        myp[i].addEventListener("click",showNewAlert);
    }
-
-
-
-
-
-
-
-
-
-
-
 }
 
 
@@ -135,12 +112,6 @@ function switchMe(){
 
          leftSw.innerHTML = middleSw.innerHTML;
          middleSw.innerHTML = hilfeSw;
-
-
-
-
-
-
 }
 
 /*
@@ -175,10 +146,6 @@ function changeColor(){
         // Have a look to the css to know which class will help you.
 
         // Console log if needed.
-
-
-
-
 
         console.log("value: " + this.value + ", id: " + this.id);
 }
